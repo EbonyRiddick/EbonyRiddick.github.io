@@ -1,4 +1,4 @@
-body, html {
+/* body, html {
     height: 100%;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -19,10 +19,77 @@ body, html {
     top: 40%;
     left: 70%;
     color: #f15a22;
+  } */
+
+  @import url('https://fonts.googleapis.com/css2?family=Festive&family=Fira+Sans:ital,wght@0,300;0,700;1,400&display=swap');
+  * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
   }
-
-
-
+  html{
+      font-size: 30px;
+      font-family: 'Fira Sans', sans-serif ;
+  }
+  a{
+      text-decoration: none;
+  }
+  .container{
+      min-height: 50vh;
+      width: 200%;
+      display: flex;
+      align-items: center;
+      justify-content: content center;
+  }
+  
+  /* hero section */
+  #hero{
+      background-image: url(./IMG/Ebony.jpg);
+      background-size: cover;
+      background-position: top center;
+      position: relative;
+      z-index: 1;
+  }
+  #hero::after{
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      background-color: black;
+      opacity: .7;
+      z-index: -1;
+  }
+  #hero .hero{
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 50px;
+      justify-content: flex-start;
+  }
+  #hero h1{
+      display: block;
+      width: fit-content;
+      font-size: 4rem;
+      position: relative;
+      color: black
+  }
+  #hero .cta{
+      display: inline-block;
+      padding: 10px 30px;
+      color: rgb(207, 0, 15);
+      background-color: transparent;
+      border:2px solid #f64747;
+      font-size: .7rem;
+      text-transform: uppercase;
+      letter-spacing: .1rem;
+      margin-top: 30px;
+      transition: .3s ease;
+      transition-property: background-color, color;
+  }
+  #hero .cta:hover{
+      color: white;
+      background-color: crimson;
+  }
 
 
 ul {
@@ -72,7 +139,7 @@ h2 {
 
 p {
     text-indent: 50px;
-    text-align: justify;
+    text-align: left;
     letter-spacing: 3px;
 }
   
