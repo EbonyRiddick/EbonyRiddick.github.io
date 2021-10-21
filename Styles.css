@@ -210,6 +210,25 @@ a {
     text-align: center;
 }
 
+#projects .section-title{
+    font-size: 3rem;
+    font-weight: 300;
+    color: rgb(240, 52, 52);
+    margin-bottom:10px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+}
 
+
+#contact .section-title{
+    font-size: 3rem;
+    font-weight: 300;
+    color: rgb(240, 52, 52);
+    margin-bottom:10px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
+}
 
 /* end about me section */
