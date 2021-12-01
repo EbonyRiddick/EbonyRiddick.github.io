@@ -50,23 +50,6 @@ a{
    position: relative;
    color: black
 }
-#hero .cta{
-    display: inline-block;
-    padding: 10px 30px;
-    color: rgb(207, 0, 15);
-    background-color: transparent;
-    border:2px solid #f64747;
-    font-size: .7rem;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-    margin-top: 30px;
-    transition: .3s ease;
-    transition-property: background-color, color;
-}
-#hero .cta:hover{
-    color: white;
-    background-color: crimson;
-}
 
 
 ul {
@@ -126,109 +109,62 @@ a {
 }
 
 /* home section */
-#home{
-}
-#home .home{
-    flex-direction: column;
-    text-align: center;
-    max-width:1500px;
-    margin: 0 auto;
-    padding: 100px 0;
-}
-#home .section-title{
-    font-size: 3rem;
-    font-weight: 300;
-    color: rgb(240, 52, 52);
-    margin-bottom:10px;
-    text-transform: uppercase;
-    letter-spacing: .2rem;
-    text-align: center;
-}
-
-#home .home-bottom {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-#home .home-item::after{
-    content:'';
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color:rgb(241, 169, 160);
-    opacity: .2;  
-}
-/* end of home section */
-/* start about me section */
-#about .about{
+.all-home{
+    background-color: lightseagreen;
     flex-direction: column-reverse;
     text-align: center;
     max-width:1200px;
     margin: 0 auto;
-    padding: 100px 20px;
+    padding: 90px 20px;
 }
-#about col-left{
-    font-size: 1.5rem;
-    font-weight: 500;
-    
+.all-home > h1, .about {
+    margin: 10px;
+    padding: 5px;
 }
-#about col-right{
-    width: 100%;
+.just-home {
+background: white;
 }
-#about col-right h2{
-    font-size: 3rem;;
-    font-weight: 500;
-    letter-spacing: .2rem;
-    margin-bottom:10px;
+
+.just-home > h2, p {
+margin: 4px;
+font-size: 90%;
 }
-#about col-right p{
-    margin-bottom:20px;
-}
-#about .col-left .about-img {
-    position: relative;
-    height:100%;
-    width:100%;
-}
-#about .col-left .about-img::after{
-    content:'';
-    position: absolute;
-    left: -33px;
-    top: 19px;
-    height: 98%;
-    width: 98%;
-}
-#about .section-title{
-    font-size: 3rem;
-    font-weight: 300;
-    color: rgb(240, 52, 52);
-    margin-bottom:10px;
-    text-transform: uppercase;
-    letter-spacing: .2rem;
+
+/* end of home section */
+/* start about me section */
+.all-about{
+    background-color: lightsalmon;
+    flex-direction: column-reverse;
     text-align: center;
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 90px 20px;
+}
+.all-about > h1, .about {
+    margin: 10px;
+    padding: 5px;
+}
+.about {
+background: white;
 }
 
-#projects .section-title{
-    font-size: 3rem;
-    font-weight: 300;
-    color: rgb(240, 52, 52);
-    margin-bottom:10px;
-    text-transform: uppercase;
-    letter-spacing: .2rem;
+.about > h2, p {
+margin: 4px;
+font-size: 90%;
+}
+
+
+footer{
     text-align: center;
+    padding: 3px;
+    background-color: lightgreen;
+    color: white;
 }
 
-
-#contact .section-title{
-    font-size: 3rem;
-    font-weight: 300;
-    color: rgb(240, 52, 52);
-    margin-bottom:10px;
-    text-transform: uppercase;
-    letter-spacing: .2rem;
+table, th, td {
+    border:1px solid darkgoldenrod;
     text-align: center;
+    width: auto;
+    align-items: center;
 }
 
-/* end about me section */
